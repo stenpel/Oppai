@@ -1,0 +1,38 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet '/css/bootstrap.min.css' %>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <%= stylesheet '/css/bootstrap.min.responsive.css' %>
+    <title>Login Manager</title></head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+	<div class="container-fluid">
+	  <a class="brand" href="#">ThinkSocial</a>
+	</div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+	<div class="span4">
+	  <%= content %>
+	</div>
+	<div class="span4">
+	  <h1>tinko</h1>
+	</div>
+      </div>
+    </div>
+  </body>
+  </html>
+
